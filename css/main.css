@@ -125,6 +125,9 @@ main {
 header,
 footer,
 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
 }
 
@@ -145,6 +148,10 @@ main {
 }
 
 .flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
 }
 
@@ -156,6 +163,9 @@ main {
   background-color: #f16059;
   width: 30%;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ==========================================================================
@@ -247,10 +257,12 @@ main {
 @media (min-width: 1200px) {
   #div-1,
   #div-2{
+    flex:  1 50%;
       /* set your flex value to 1 50% */
   }
 
   #div-3 {
+    flex: 1 100%;
     /* set your flex value to 1 100% */
   }
 }
