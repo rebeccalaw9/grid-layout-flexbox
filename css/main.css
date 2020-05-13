@@ -137,9 +137,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #05668d;
   line-height: 1.5em;
   font-size: 1.25em;
+  width: 30%;
 }
 
 .wrapper span {
@@ -149,7 +150,7 @@ main {
 
 .flex-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
@@ -160,12 +161,13 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #b8f2e6;
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 /* ==========================================================================
@@ -265,7 +267,7 @@ main {
     flex: 1 100%;
     /* set your flex value to 1 100% */
   }
-}
+} */
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
